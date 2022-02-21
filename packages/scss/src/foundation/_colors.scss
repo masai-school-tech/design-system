@@ -1,0 +1,32 @@
+///////////////////////////////////////////////
+//           Global Text Colors               //
+///////////////////////////////////////////////
+
+$body-text-color: var(--masai-body-text-color, $dark) !default;
+$body-bg-color: var(--masai-body-bg-color, $white) !default;
+
+///////////////////////////////////////////////
+//           Buttons                          //
+///////////////////////////////////////////////
+
+$btn-primary-color: var(--masai-btn-primary-color, $white) !default;
+$btn-primary-bg: var(--masai-btn-primary-bg, $green) !default;
+$btn-primary-bg-hover: var(--masai-btn-primary-bg-hover, $green-light) !default;
+
+///////////////////////////////////////////////
+//           Forms                           //
+///////////////////////////////////////////////
+
+$form-border-color: var(--masai-form-border-color, $white-dark) !default;
+$form-bg-color: var(--masai-form-bg-color, $white) !default;
+$form-bg-option-selected: var(--masai-form-bg-option-selected, $green) !default;
+$form-color-option-selected: var(
+    --masai-form-color-option-selected,
+    $white
+) !default;
+$form-bg-color-hover: var(--masai-form-bg-color-hover, $white-dark) !default;
+$form-color: var(--masai-form-color, $dark) !default;
+$form-bg: var(--masai-form-bg, $white) !default;
+$form-error-color: var(--masai-form-error-color, $red) !default;
+$form-error-border: var(--masai-form-error-border, $red) !default;
+$form-border-focus-color: var(--masai-form-border-focus-color, $green) !default;

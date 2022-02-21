@@ -1,0 +1,30 @@
+{
+  "name": "@masaischooltech/packages",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^17.0.39",
+    "lerna": "^4.0.0",
+    "parcel-bundler": "^1.12.5",
+    "react": "^17.0.2",
+    "typescript": "^4.5.5"
+  },
+  "installConfig": {
+    "hoistingLimits": "none"
+  },
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "playgrounds/*"
+    ],
+    "nohoist": [
+      "**/normalize-scss"
+    ]
+  },
+  "scripts": {
+    "build": "yarn lerna run build",
+    "dev": "yarn lerna run dev"
+  }
+}

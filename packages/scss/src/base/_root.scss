@@ -1,0 +1,28 @@
+:root {
+  --masai-body-text-color: #{$dark};
+  --masai-body-bg-color: #{$white};
+  --masai-btn-primary-color: #{$white};
+  --masai-btn-primary-bg: #{$green};
+  --masai-btn-primary-bg-hover: #{$green-light};
+  --masai-btn-secondary-color: #{$white};
+  --masai-btn-secondary-bg: #{$dark};
+  --masai-form-color: #{$dark};
+  --masai-form-bg: #{$white};
+  --masai-form-error-color: #{$red};
+  --masai-form-error-border: #{$red};
+  --masai-form-border-focus-color: #{$green};
+  --masai-body-font-size: #{$fs-base};
+  --masai-body-font-weight: #{$fw-normal};
+  --masai-h1-font-size: #{$h-1};
+  --masai-h2-font-size: #{$h-2};
+  --masai-h3-font-size: #{$h-3};
+  --masai-h4-font-size: #{$h-4};
+  --masai-h5-font-size: #{$h-5};
+  --masai-h6-font-size: #{$h-6};
+  --masai-h1-font-weight: #{$fw-medium};
+  --masai-h2-font-weight: #{$fw-medium};
+  --masai-h3-font-weight: #{$fw-medium};
+  --masai-h4-font-weight: #{$fw-normal};
+  --masai-h5-font-weight: #{$fw-normal};
+  --masai-h6-font-weight: #{$fw-light};
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@masaischooltech/foundation",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "yarn build -w"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

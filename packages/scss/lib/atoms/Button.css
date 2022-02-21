@@ -1,0 +1,47 @@
+/**
+ * TABLE OF CONTENTS
+ *
+ * COLORS
+ * Brand colors...................These are the main brand colors. They will be used the most
+ * Neutral colors.................White and black, gray scale, secondary colors.
+ * Utility colors.................Other colors to represent states: info, warning, success, etc.
+ *
+ * TYPOGRAPHY
+ * Font families..................The fonts used in the design system.
+ * Font weights...................Font weights
+ * Sizes..........................Font sizing for body text, paragraphs, inputs
+ * Heading sizes..................Font sizing for page headings
+ *
+ * BREAKPOINTS
+ * Breakpoints....................Global responsive breakpoints definitions.
+ *
+ * SPACING
+ * Spacing........................Global fixed set of spacing variables
+ *
+ * SHADOWS
+ * Shadows........................Global fixed set of shadows
+ */
+/* Brand Colors */
+/* Neutral Colors */
+/* Utility Colors */
+/* Font sizes */
+/* Font sizes */
+/* Heading Font Sizes */
+/* Font weights */
+/**
+ * This file defines the default font sizes to be used on headings and texts. The defaults come
+ * from the palette defined in _variables.scss.
+ */
+/**
+ *
+ * Helpful reusable function-like things that will be used to implement
+ * styles for components.
+ *
+ */
+.masai-button__container {
+  display: flex;
+  background: var(--masai-btn-primary-bg, #5ece7b);
+  color: var(--masai-btn-primary-color, #fff);
+  border: none;
+  padding: 0.25rem;
+}

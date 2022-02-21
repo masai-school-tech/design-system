@@ -1,0 +1,132 @@
+///////////////////////////////////////////////
+//           Variables                        //
+///////////////////////////////////////////////
+
+/**
+ * TABLE OF CONTENTS
+ *
+ * COLORS
+ * Brand colors...................These are the main brand colors. They will be used the most
+ * Neutral colors.................White and black, gray scale, secondary colors.
+ * Utility colors.................Other colors to represent states: info, warning, success, etc.
+ *
+ * TYPOGRAPHY
+ * Font families..................The fonts used in the design system.
+ * Font weights...................Font weights
+ * Sizes..........................Font sizing for body text, paragraphs, inputs
+ * Heading sizes..................Font sizing for page headings
+ *
+ * BREAKPOINTS
+ * Breakpoints....................Global responsive breakpoints definitions.
+ *
+ * SPACING
+ * Spacing........................Global fixed set of spacing variables
+ *
+ * SHADOWS
+ * Shadows........................Global fixed set of shadows
+ */
+
+///////////////////////////////////////////////
+//           Colors                          //
+///////////////////////////////////////////////
+
+/* Brand Colors */
+$green: #5ece7b;
+$green-light: #9ee2b0;
+$dark: #1d1f22;
+$dark-light: #737680;
+
+/* Neutral Colors */
+$gray: #a3a5ad;
+$gray-light: #bebfc4;
+$white: #fff;
+$white-dark: #f1f2f3;
+
+/* Utility Colors */
+$red: #d12727;
+$red-light: #f8dedf;
+$blue: #0468db;
+$blue-light: #b4d2f4;
+
+///////////////////////////////////////////////
+//           Typography                       //
+///////////////////////////////////////////////
+
+$playfair: "Playfair", serif;
+$raleway: "Raleway", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+
+/* Font sizes */
+$fs-xs: 0.75rem; // 12px
+$fs-sm: 0.875rem; // 14px
+$fs-base: 1rem; // 16px
+$fs-lg: 1.125rem; // 18px
+$fs-xl: 1.5rem; // 24px
+
+$fs: (
+  xs: 0.75rem,
+  sm: 0.875rem,
+  base: 1rem,
+  lg: 1.125rem,
+  xl: 1.5rem,
+);
+
+/* Font sizes */
+$fs-xs: 0.75rem;
+$fs-sm: 0.875rem;
+$fs-base: 1rem;
+$fs-lg: 1.125rem;
+$fs-xl: 1.5rem;
+
+/* Heading Font Sizes */
+$h-1: 1.375rem;
+$h-2: 1.375rem;
+$h-3: 1.125rem;
+$h-4: 1rem;
+$h-5: 0.75rem;
+$h-6: 0.75rem;
+
+/* Font weights */
+$fw-light: 300;
+$fw-normal: 400;
+$fw-medium: 500;
+$fw-semibold: 600;
+$fw-bold: 700;
+$fw-extrabold: 800;
+$fw-black: 900;
+
+///////////////////////////////////////////////
+//           Breakpoints                      //
+///////////////////////////////////////////////
+
+$breakpoints: (
+  sm: 36rem,
+  md: 48rem,
+  lg: 64rem,
+  xl: 80rem,
+  xxl: 88rem,
+);
+
+///////////////////////////////////////////////
+//           Spacing                          //
+///////////////////////////////////////////////
+
+$spacing: (
+  none: 0,
+  xxxs: 0.25rem,
+  xxs: 0.5rem,
+  xs: 0.75rem,
+  sm: 1rem,
+  md: 1.5rem,
+  lg: 2rem,
+  xl: 3rem,
+  xxl: 4.5rem,
+  xxxl: 6rem,
+) !default;
+
+///////////////////////////////////////////////
+//           Shadows                          //
+///////////////////////////////////////////////
+
+// $shadows: (
+//   base: 0 4px 11px rgb(157 157 157 / 21%),
+// );
