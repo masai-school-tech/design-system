@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
+  "files": [
+    "lib",
+    "src"
+  ],
   "devDependencies": {
     "husky": "^7.0.4",
     "lint-staged": "^12.3.4",
