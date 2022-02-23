@@ -5,6 +5,8 @@
   "license": "MIT",
   "devDependencies": {
     "@types/react": "^17.0.39",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
     "lerna": "^4.0.0",
     "parcel-bundler": "^1.12.5",
     "react": "^17.0.2",
@@ -25,6 +27,12 @@
   },
   "scripts": {
     "build": "yarn lerna run build",
-    "dev": "yarn lerna run dev"
+    "dev": "yarn lerna run dev",
+    "commit": "yarn git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }

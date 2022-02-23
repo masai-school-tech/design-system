@@ -18,7 +18,6 @@ const Margin: React.FC<MarginProps> = ({
   bottom,
 }) => {
   let className = ``;
-  console.log("left", left, right, top, bottom);
   if (!left && !right && !top && !bottom) {
     className = `masai-margin-${space}`;
   }
