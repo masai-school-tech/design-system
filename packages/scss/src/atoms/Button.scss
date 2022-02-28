@@ -6,5 +6,5 @@
   background: $btn-primary-bg;
   color: $btn-primary-color;
   border: none;
-  padding: map-get($map: $spacing, $key: "xxxs");
+  padding: map-get($map: $spacing, $key: "xs");
 }
